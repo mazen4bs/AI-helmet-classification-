@@ -1,8 +1,9 @@
-# Helmet Detection using Faster R-CNN
+# Helmet Detection using neural network
 # Overview
-This project aims to detect whether a person in an image is wearing a helmet or not, utilizing the Faster R-CNN (Region-based Convolutional Neural Network) architecture. It's particularly useful for safety monitoring in scenarios such as construction sites, bike lanes, or any environment where helmet usage is crucial.
-
-# Features
+In this project 2 neural network models (**CNN** and **Faster RCNN**) are used to detect whether a person is wearing a helmet or not.
+# 1-CNN model
+# 2-Faster RCNN model
+**Features**
 *   **Data Preparation**: The dataset consists of images along with XML annotations indicating the presence of helmets.
 *   **Model Architecture**: Utilizes the pre-trained ResNet50 model as the backbone for the Faster R-CNN architecture.
 *   **Training**: The model is trained using binary cross-entropy loss and the Adam optimizer.
