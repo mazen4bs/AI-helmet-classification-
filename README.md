@@ -1,6 +1,8 @@
 # Helmet Detection using neural network
 # Overview
-In this project 2 neural network models (**CNN** and **Faster RCNN**) are used to detect whether a person is wearing a helmet or not.
+This repository contains two project models that achieve the same goal which is detecting whether the person is wearing helmet or not.<br>
+**-Models**: Two neural network models (**CNN** or **Faster RCNN**) are used for the helmet detection.<br>
+**-Dataset**: The dataset used for this project was obtained from the Kaggle website. It was downloaded and then separated into three categories: the first contains images for training, the second for testing, and the third for validation.
 # 1-CNN model
 **Loss and accuracy results**
 
